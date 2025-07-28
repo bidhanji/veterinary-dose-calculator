@@ -28,37 +28,39 @@ A fullstack web application for calculating veterinary drug dosages with a NestJ
 
 ## Project Structure
 vet-dose-calculator/
-├── backend/                                # NestJS backend for dose calculation
+├── backend/
 │   ├── src/
 │   │   ├── data/
-│   │   │   └── drug_data.csv               # CSV file with drug name, species, dose, concentration
+│   │   │   └── drug_data.csv
 │   │   ├── dose/
-│   │   │   ├── dto/                        # DTOs for validating request bodies (optional)
-│   │   │   ├── interfaces/                 # TypeScript interfaces for drug/dose types
-│   │   │   ├── dose.controller.ts          # Controller to handle API endpoints
-│   │   │   ├── dose.service.ts             # Core logic for dose calculation
-│   │   │   └── dose.module.ts              # Feature module definition
-│   │   ├── app.controller.ts               # Base controller (optional placeholder)
-│   │   ├── app.service.ts                  # Base service (optional placeholder)
-│   │   ├── app.module.ts                   # Root NestJS application module
-│   │   └── main.ts                         # Application bootstrap file
-│   ├── package.json                        # Backend dependencies and scripts
-│   └── tsconfig.json                       # TypeScript config for backend
-├── frontend/                               # React frontend (Vite + TypeScript)
+│   │   │   ├── dto/
+│   │   │   ├── interfaces/
+│   │   │   ├── dose.controller.ts
+│   │   │   ├── dose.service.ts
+│   │   │   └── dose.module.ts
+│   │   ├── app.controller.ts
+│   │   ├── app.service.ts
+│   │   ├── app.module.ts
+│   │   └── main.ts
+│   ├── package.json
+│   └── tsconfig.json
+├── frontend/
 │   ├── src/
 │   │   ├── services/
-│   │   │   └── api.ts                      # Axios client to connect with backend API
+│   │   │   └── api.ts
 │   │   ├── types/
-│   │   │   └── dose.types.ts               # Frontend type definitions for dose response
-│   │   ├── App.tsx                         # Main application component
-│   │   ├── App.css                         # Styles for App layout
-│   │   ├── main.tsx                        # React entry point
-│   │   └── index.css                       # Global CSS
-│   ├── index.html                          # HTML entry for Vite app
-│   ├── package.json                        # Frontend dependencies and scripts
-│   ├── vite.config.ts                      # Vite dev/build configuration
-│   └── tsconfig.json                       # TypeScript config for frontend
-└── README.md                               # Project overview and setup instructions
+│   │   │   └── dose.types.ts
+│   │   ├── App.tsx
+│   │   ├── App.css
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── tsconfig.json
+└── README.md
+
+
 
 
 ## Setup Instructions
