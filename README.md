@@ -28,13 +28,13 @@ A fullstack web application for calculating veterinary drug dosages with a NestJ
 
 ## Project Structure
 vet-dose-calculator/
-├── backend/
+├── backend/                    # NestJS API server
 │   ├── src/
 │   │   ├── data/
-│   │   │   └── drug_data.csv
-│   │   ├── dose/
-│   │   │   ├── dto/
-│   │   │   ├── interfaces/
+│   │   │   └── drug_data.csv   # Drug database with dosage information
+│   │   ├── dose/               # Dose calculation module
+│   │   │   ├── dto/            # Data Transfer Objects
+│   │   │   ├── interfaces/     # TypeScript interfaces
 │   │   │   ├── dose.controller.ts
 │   │   │   ├── dose.service.ts
 │   │   │   └── dose.module.ts
@@ -44,12 +44,12 @@ vet-dose-calculator/
 │   │   └── main.ts
 │   ├── package.json
 │   └── tsconfig.json
-├── frontend/
+├── frontend/                   # React application
 │   ├── src/
 │   │   ├── services/
-│   │   │   └── api.ts
+│   │   │   └── api.ts          # API service layer
 │   │   ├── types/
-│   │   │   └── dose.types.ts
+│   │   │   └── dose.types.ts   # TypeScript type definitions
 │   │   ├── App.tsx
 │   │   ├── App.css
 │   │   ├── main.tsx
@@ -59,8 +59,6 @@ vet-dose-calculator/
 │   ├── vite.config.ts
 │   └── tsconfig.json
 └── README.md
-
-
 
 
 ## Setup Instructions
