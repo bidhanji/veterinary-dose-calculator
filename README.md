@@ -1,6 +1,6 @@
 # Veterinary Drug Dose Calculator
 
-A fullstack web application for calculating veterinary drug dosages with a NestJS backend and React frontend.
+A fullstack web application for calculating veterinary drug dosages.
 
 ## Features
 
